@@ -4,6 +4,7 @@ export config=~/.scalr/default.yaml
 export AWS_AMIBASE="ami-xxxx"
 export AWS_AMI_user="ubuntu"
 export AWS_SUBNETID="subnet-xxxx"
+export AWS_SECURITY_GROUP="sg-xxxx"
 export OSID=ubuntu-16-04
 export amidate=$(date +%H%I%Y)
 export AMINAME=Scalr-$OSID-$amidate

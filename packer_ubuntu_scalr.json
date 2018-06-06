@@ -7,7 +7,7 @@
 		"instance_type": "t2.small",
 		"region": "us-west-1",
 		"security_group_ids": [
-			"sg-00bfcf79"
+			"{{user `aws_security_grp`}}"
 		],
 		"source_ami": "{{user `base_ami`}}",
 		"ssh_username": "{{user `ami_user`}}",
@@ -27,6 +27,7 @@
 		"aws_access_key": "{{env `AWS_ACCESS_KEY`}}",
 		"aws_secret_key": "{{env `AWS_SECRET_KEY`}}",
 		"base_ami": "{{env `AWS_AMIBASE`}}",
-		"subnet_id": "{{env `AWS_SUBNETID`}}"
+		"subnet_id": "{{env `AWS_SUBNETID`}}",
+		"aws_security_grp":"{{env `AWS_SECURITY_GROUP`}}"
 	}
 }
