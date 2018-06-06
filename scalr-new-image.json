@@ -1,0 +1,15 @@
+{
+   "architecture": "x86_64",
+   "cloudImageId": "ami-xxxx",
+   "cloudInitInstalled": true,
+   "cloudLocation": "us-west-1",
+   "cloudPlatform": "ec2",
+   "deprecated": false,
+   "name": "Scalr-Ubuntu1604",
+   "os": {
+     "id": "ubuntu-16-04"
+   },
+   "scalrAgentInstalled": true,
+   "size": 1,
+   "type": ""
+ }
