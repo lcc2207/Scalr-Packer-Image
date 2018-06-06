@@ -13,13 +13,13 @@
 # Items that will need updated in the script 'build-images.sh'
 Note you can remove these from the script and export them in the Env or update the script
 
-export config="<Path to your Scalr config file>"   
-export AWS_AMIBASE="<AMI ID>""  
+export config="**Path to your Scalr config file**"   
+export AWS_AMIBASE="**AMI ID**""  
 export AWS_AMI_user="ubuntu"  
-export AWS_SUBNETID="<AWS SUBNET ID>"  
-export AWS_SECURITY_GROUP="<AWS SECURITY GROUP ID>"  
+export AWS_SUBNETID="**AWS SUBNET ID**"  
+export AWS_SECURITY_GROUP="**AWS SECURITY GROUP ID**"  
 export OSID=ubuntu-16-04  
 export amidate=$(date +%H%I%Y)  
 export AMINAME=Scalr-$OSID-$amidate  
-export AWS_DEFAULT_REGION="<AWS REGION>"  
+export AWS_DEFAULT_REGION="**AWS REGION**"  
 export packer_file="packer_ubuntu_scalr.json"  
